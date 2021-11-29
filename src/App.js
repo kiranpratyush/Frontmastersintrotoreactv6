@@ -1,13 +1,7 @@
+import React from "react"
+import ReactDOM from "react-dom"
+import Dog from "./pet";
 
-const Dog = (props) => {
-  return React.createElement(
-    "div",
-    {},
-    React.createElement("h1", {}, props.animal),
-    React.createElement("h3", {}, props.name),
-    React.createElement("h3", {}, props.breed)
-  );
-};
 
 const App = () => {
   return React.createElement(
